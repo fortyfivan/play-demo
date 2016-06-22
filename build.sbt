@@ -12,7 +12,7 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
-enablePLugins(DebianPlugin)
+enablePlugins(DebianPlugin)
 maintainer := "Ivan Dwyer <fortyfivan@gmail.com>"
 packageSummary := "My custom package"
 packageDescription := "Package"
